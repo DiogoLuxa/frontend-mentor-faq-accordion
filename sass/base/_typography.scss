@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@function display($screen) {
+  @if $screen == "mobile" {
+    @return 3.2rem;
+  } @else if $screen == "desktop" {
+    @return 5.6rem;
+  }
+}
+@function title($screen) {
+  @if $screen == "mobile" {
+    @return 1.6rem;
+  } @else if $screen == "desktop" {
+    @return 1.8rem;
+  }
+}
+@function body($screen) {
+  @if $screen == "mobile" {
+    @return 1.4rem;
+  } @else if $screen == "desktop" {
+    @return 1.6rem;
+  }
+}
+.display {
+  font-size: display("mobile");
+  font-weight: bold;
+  color: $dark-purple;
+  @media (min-width: 1440px) {
+    font-size: display("desktop");
+  }
+}
+.title {
+  font-size: title("mobile");
+  font-weight: 500;
+  color: $dark-purple;
+  &:hover {
+    color: $pink;
+  }
+  @media (min-width: 1440px) {
+    font-size: title("desktop");
+  }
+}
+.body {
+  font-size: body("mobile");
+  font-weight: 400;
+  line-height: 150%;
+  color: $pale-purple;
+  @media (min-width: 1440px) {
+    font-size: body("desktop");
+  }
+}

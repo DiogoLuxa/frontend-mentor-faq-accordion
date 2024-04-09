@@ -1,0 +1,13 @@
+@import "./base/colors";
+@import "./base/reset";
+@import "./base/typography";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  background-color: $light-pink;
+}
