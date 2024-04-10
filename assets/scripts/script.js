@@ -9,8 +9,8 @@ const accordionBlockContent = document.querySelectorAll(".content");
 const accordionBlockIcon = document.querySelectorAll(".btn-icon");
 
 // FUNCTIONS
-function addActiveClass(index) {
-  accordionBlockContent[index].classList.add("active");
+function addActiveClass(i) {
+  accordionBlockContent[i].classList.add("active");
 }
 function removeActiveClasses() {
   accordionBlockContent.forEach((content) => {
@@ -22,7 +22,7 @@ function changeIconMinus(i) {
 }
 function changeIconPlus() {
   accordionBlockIcon.forEach((icon) => {
-    icon.src = "./assets/images/icon-Plus.svg";
+    icon.src = "./assets/images/icon-plus.svg";
   });
 }
 
