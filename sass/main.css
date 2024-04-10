@@ -133,6 +133,14 @@ body {
        column-gap: 24px;
   cursor: pointer;
 }
+.card .display-content__block__title:focus {
+  outline: 2px solid hsl(281, 83%, 54%);
+  padding: 5px;
+  border-radius: 8px;
+}
+.card .display-content__block__title:focus h2 {
+  color: hsl(281, 83%, 54%);
+}
 .card .display-content__block .body {
   height: 0;
   overflow: hidden;

@@ -76,6 +76,14 @@ body {
         column-gap: 24px;
         cursor: pointer;
       }
+      &__title:focus {
+        outline: 2px solid $pink;
+        padding: 5px;
+        border-radius: 8px;
+        h2 {
+          color: $pink;
+        }
+      }
       .body {
         height: 0;
         overflow: hidden;
