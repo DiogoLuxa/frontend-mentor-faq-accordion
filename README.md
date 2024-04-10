@@ -52,7 +52,7 @@ Users should be able to:
 
 ### What I learned
 
-I mainly learned to deal better with SVG files.
+I mainly learned about accessibility and how to implement certain features, as well as how to handle SVG files more effectively.
 
 ### Continued development
 
