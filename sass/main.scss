@@ -43,7 +43,7 @@ body {
   padding: 24px;
   border-radius: 8px;
   background-color: $white;
-  box-shadow: 0px 10px 20px rgba(80, 0, 118, 0.1);
+  box-shadow: 0px 32px 56px rgba(80, 0, 118, 0.1);
   @media (min-width: 1440px) {
     row-gap: 32px;
     padding: 40px;
@@ -92,4 +92,7 @@ body {
   bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
+  width: 100%;
+  font-size: 1.4rem;
+  text-align: center;
 }
