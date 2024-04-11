@@ -94,6 +94,7 @@ body {
   }
 }
 .attribution {
+  display: none;
   position: absolute;
   bottom: 2rem;
   left: 50%;
@@ -101,4 +102,10 @@ body {
   width: 100%;
   font-size: 1.4rem;
   text-align: center;
+  a {
+    color: $dark-purple;
+  }
+  @media (min-width: 1440px) {
+    display: block;
+  }
 }
