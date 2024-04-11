@@ -77,9 +77,7 @@ body {
         cursor: pointer;
       }
       &__title:focus {
-        outline: 2px solid $pink;
-        padding: 5px;
-        border-radius: 8px;
+        outline: none;
         h2 {
           color: $pink;
         }
