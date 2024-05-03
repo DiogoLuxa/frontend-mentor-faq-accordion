@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz/hub)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-faq-accordion-using-javascript-cYvtljmb5W)
 - Live Site URL: [FAQ accordion](https://diogoluxa.github.io/frontend-mentor-faq-accordion/)
 
 ## My process
