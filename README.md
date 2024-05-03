@@ -17,8 +17,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -37,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/DiogoLuxa/frontend-mentor-faq-accordion)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz/hub)
 - Live Site URL: [FAQ accordion](https://diogoluxa.github.io/frontend-mentor-faq-accordion/)
 
 ## My process
