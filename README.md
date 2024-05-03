@@ -5,7 +5,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 ## Table of contents
 
 - [Frontend Mentor - FAQ accordion solution](#frontend-mentor---faq-accordion-solution)
-  - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
